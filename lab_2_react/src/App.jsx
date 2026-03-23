@@ -2,24 +2,24 @@ import React from 'react';
 
 const Education = () => (
   <section className="bg-white border p-6 rounded-2xl shadow-sm">
-    <h2 className="text-blue-600 font-bold uppercase text-xs mb-3">Освіта</h2>
-    <h3 className="font-bold text-slate-900">Львівська політехніка</h3>
+    <h2 className="text-blue-600 font-bold uppercase text-xs mb-3">Education</h2>
+    <h3 className="font-bold text-slate-900">Lviv Polytechnic National University</h3>
     <p className="text-sm text-blue-600 font-semibold">2023 – 2027</p>
-    <p className="text-sm text-slate-600 mt-1">Спеціальність: Кібербезпека</p>
+    <p className="text-sm text-slate-600 mt-1">Cybersecurity</p>
   </section>
 );
 
 const Experience = () => (
   <section className="bg-white border p-6 rounded-2xl shadow-sm">
-    <h2 className="text-blue-600 font-bold uppercase text-xs mb-4">Досвід та проекти</h2>
+    <h2 className="text-blue-600 font-bold uppercase text-xs mb-4">Expirience</h2>
     <div className="space-y-4">
       <div>
         <h3 className="font-bold text-slate-900">Database Architect</h3>
-        <p className="text-sm text-slate-600">Проектування реляційних баз даних.</p>
+        <p className="text-sm text-slate-600">Relational Database Design.</p>
       </div>
       <div>
         <h3 className="font-bold text-slate-900">Secure Network Design</h3>
-        <p className="text-sm text-slate-600">Розробка архітектури комп'ютерних мереж.</p>
+        <p className="text-sm text-slate-600">Computer Network Architecture Design.</p>
       </div>
     </div>
   </section>
@@ -32,10 +32,10 @@ function App() {
  
         <header className="bg-blue-600 text-white p-8 rounded-3xl text-center shadow-lg">
           <h1 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
-            Лариса Місюра
+            Larysa Misiura
           </h1>
           <p className="mt-2 text-blue-100 font-bold uppercase tracking-widest text-xs">
-            Фахівець із кібербезпеки
+           Cybersecurity specialist
           </p>
         </header>
 
@@ -67,7 +67,7 @@ function App() {
             <section className="bg-white border p-6 rounded-2xl shadow-sm italic">
               <h2 className="text-slate-400 font-bold uppercase text-xs mb-2">About me</h2>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Відповідальна та наполеглива. Прагну розвиватися у сфері захисту даних.
+                Responsible and determined. I am committed to growing my expertise in the field of data protection.
               </p>
             </section>
 
@@ -103,7 +103,7 @@ function App() {
 
         <footer className="py-8 text-center border-t border-gray-200">
           <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest">
-            • 2026 • Лариса Місюра •
+            • 2026 • Larysa Misiura •
           </p>
         </footer>
       </div>
