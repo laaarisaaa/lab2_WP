@@ -129,7 +129,6 @@
 
         <script>
         (function() {
-            // --- ЛОГІКА ПЕРЕМИКАННЯ ТЕМИ (НОВЕ) ---
             const themeBtn = document.getElementById('theme-toggle');
             
             function setTheme(isDark) {
@@ -144,7 +143,6 @@
 
             function checkAutoTheme() {
                 const hour = new Date().getHours();
-                // День з 07:00 до 21:00, інакше ніч
                 const isDay = hour >= 7 && hour < 21;
                 setTheme(!isDay);
             }
@@ -156,7 +154,6 @@
 
             checkAutoTheme();
 
-            // --- ЛОГІКА SYSTEM INFO ---
             const getOS = () => {
                 const ua = navigator.userAgent;
                 if (ua.indexOf("Win") !== -1) return "Windows";
@@ -191,7 +188,6 @@
                 displayDiv.innerHTML = htmlContent;
             }
 
-            // --- ЛОГІКА КОМЕНТАРІВ ---
             async function loadComments() {
                 const container = document.getElementById('comments-container');
                 try {
@@ -219,7 +215,6 @@
             }
             loadComments();
 
-            // --- ЛОГІКА МОДАЛЬНОГО ВІКНА (ТАЙМЕР 1 ХВ) ---
             const modal = document.getElementById('feedback-modal');
             const closeBtn = document.getElementById('close-modal-btn');
 
